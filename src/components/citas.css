@@ -1,0 +1,43 @@
+h2 {
+    margin-left: 20px;
+  }
+  
+.custom-card {
+    border: 1px solid #98eaff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #98eaff;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para el botón de eliminar */
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #4b0007;
+  }
+  @media (max-width: 768px) {
+    .col-md-4 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
